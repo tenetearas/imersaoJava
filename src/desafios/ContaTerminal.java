@@ -18,6 +18,8 @@ public class ContaTerminal {
         System.out.println("Saldo da conta: ");
         double saldo = terminal.nextDouble();
 
+        System.out.println("Olá, " + titular + "." +  "\nObrigado por criar uma conta em nosso banco");
+        System.out.println("Os dados da sua conta são: ");
         System.out.println();
         System.out.println("**************************");
         System.out.println("Conta: " + numero);
